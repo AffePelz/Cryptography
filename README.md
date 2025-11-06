@@ -1,4 +1,4 @@
 # Cryptography
 This is one of my first project I wanted to try, after working with a simple RSA encryption algorithm as part of my workshop and assignment. In my assignment and workshop (and probably seen a lot of examples of RSA algorithms), the messame _M_ is suppose to be an integer and using the RSA algorithm for encrypting the message _M_ to get a ciphertext _C_ and decrypting the cipher text _C_ to get the original message _M_.
 ## **Assignment 1**
-Using the RSA algorithm, I wanted my message _M_ to be a '.txt' file. Using the RSA encryption algorithm on message _M_, we will get a cipher text in `.txt` file.  
+Using the RSA algorithm, I wanted my message _M_ to be a `.txt` file. Using the RSA encryption algorithm on message _M_, we will get a cipher text in `.txt` file.  
