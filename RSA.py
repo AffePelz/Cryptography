@@ -12,18 +12,15 @@ def rsa_encrypt(text, e, n):
         encrypted.append(C)
     return encrypted
 
-# Bob's private 
-e = 65537
-n = 999630013489
-
-# Key generator
+# Key generator (my public key (n, e))
 p = 999671
 q = 999959
+n = p*q
 phi_n = (p-1)*(q-1)
+e = 65537
 
 # Private key
 d = pow(e,-1,phi_n)
-
 
 with open("ciphertext.txt", "r") as file:
     content = file.read()
