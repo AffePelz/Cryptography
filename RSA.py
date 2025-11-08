@@ -1,3 +1,6 @@
+import os
+from dotenv import load_dotenv
+
 open("ciphertext.txt", "w").close()
 
 with open("plaintext.txt", "r") as firstfile, open("ciphertext.txt", "a") as secondfile:
@@ -13,8 +16,9 @@ def rsa_encrypt(text, e, n):
     return encrypted
 
 # Key generator (my public key (n, e))
-p = 999671
-q = 999959
+load_dotenv(dotenv_path='pq.env')
+p = int(os.getenv('p'))
+q = int(os.getenv('q'))
 n = p*q
 phi_n = (p-1)*(q-1)
 e = 65537
