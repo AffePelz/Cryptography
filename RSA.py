@@ -1,5 +1,3 @@
-import re
-
 open("ciphertext.txt", "w").close()
 
 with open("plaintext.txt", "r") as firstfile, open("ciphertext.txt", "a") as secondfile:
@@ -14,7 +12,7 @@ def rsa_encrypt(text, e, n):
         encrypted.append(C)
     return encrypted
 
-# Example usage
+# Bob's private 
 e = 65537
 n = 999630013489
 
