@@ -7,3 +7,5 @@ This is one of my first project I wanted to try, after working with a simple RSA
 4. We have our public key $(n,e)$ and private key $d$.
 ## **Assignment 1**
 Using the RSA algorithm, my first assignment was to take a message $M$ as a `.txt` file (we call it `plaintext.txt`) and encrypt the message $M$ to a ciphertext $C$ (which will be appended in `ciphertext.txt`) using the public key $(n,e)$. With the ciphertext $C$, we also want to decrypt the ciphertext $C$ to get the original message $M$ using our private key $d$. In this assignment, we assume that person A has used our public key to send us the ciphertext $C$. More advanced, we also need to hide any information of our private key. If the private key has been compromised, then the hacker can easily obtain the original message.
+## **Assignment 2**
+The next assignment will be implementing a digital signature. This is to make sure to confirm the integrity of the message. More details will come later.
