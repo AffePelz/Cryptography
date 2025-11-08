@@ -3,5 +3,7 @@ This is one of my first project I wanted to try, after working with a simple RSA
 ![This is how person A and person B send messages to each other](https://raw.githubusercontent.com/AffePelz/Cryptography/refs/heads/main/RSA_illustration.png)
 1. Choose two prime numbers $p$ and $q$.
 2. Calculate $n = pq$ and Euler's totient function $\phi(n) = (p-1)(q-1)$.
+3. Choose an integer $e$ and $d$ such that $ed = 1 (mod \phi(n))$.
+4. We have our public key $(n,e)$ and private key $d$.
 ## **Assignment 1**
 Using the RSA algorithm, I wanted my message _M_ to be a `.txt` file. Using the RSA encryption algorithm on message _M_, we will get a cipher text in `.txt` file.  
