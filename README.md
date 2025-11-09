@@ -9,4 +9,4 @@ This is one of my first project I wanted to try, after working with a simple RSA
 ## **Assignment 1**
 For my first assignment, I need to implement the RSA algorithm in Python. The message $M$ will be a `.txt` file (which is called `plaintext.txt`), and not an integer. In this assignment, we want to encrypt the `plaintext.txt` to get a ciphertext $C$ (which is called `ciphertext.txt`). We also want to decrypt the ciphertext $C$ to obtain the original message $M$ using our private key $d$. Additionally, we want to hide any information about our private key. If the private key has been compromised, then the hacker can easily obtain the original message.
 ## **Assignment 2**
-For my second assignment, I will implement a digital signature to the RSA encryption to ensure the integrity of the mesasge. More details will come later.
+The second assignment will involve digital signature. More details will come later.
